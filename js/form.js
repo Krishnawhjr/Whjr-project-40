@@ -14,7 +14,7 @@ class Form{
     }
     display() {
         this.title.html("FRUIT CATCHER");
-        this.title.position(350, 50);
+        this.title.position(450, 50);
         this.title.style('font-size', '70px');
         this.title.style('color', 'skyblue');
         this.input.position(550,400);
@@ -39,7 +39,7 @@ class Form{
             player.update();
             player.updateCount(playerCount);
             this.greeting.html("Hello " + player.name)
-            this.greeting.position(400,250);
+            this.greeting.position(600,250);
             this.greeting.style('color', 'white');
             this.greeting.style('font-size', '100px');
         });
